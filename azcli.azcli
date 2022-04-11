@@ -69,5 +69,12 @@ az acr task create \
 az acr task run --registry $ACR_NAME --name taskhelloworld
 
 
+#Trigger a build with a commit
+
+az acr task logs --registry $ACR_NAME
+
+#List builds
+az acr task list-runs --registry $ACR_NAME --output table
+
 
 # /Users/pabloc.castillog./Documents/code/azcli/limpiaRG.sh d9a5649a-559b-49a1-8113-5c451549f7de
