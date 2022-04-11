@@ -78,3 +78,7 @@ az acr task list-runs --registry $ACR_NAME --output table
 
 
 # /Users/pabloc.castillog./Documents/code/azcli/limpiaRG.sh d9a5649a-559b-49a1-8113-5c451549f7de
+
+#git add azcli.azcli 
+#git commit -m "Final commands tutorial"
+#git push origin master
